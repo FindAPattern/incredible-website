@@ -1,0 +1,25 @@
+{
+  "name": "incredible-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "$(npm bin)/pm2-runtime start ecosystem.config.js --env production",
+    "build": "echo \"Nothing to build!\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FindAPattern/incredible-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FindAPattern/incredible-website/issues"
+  },
+  "homepage": "https://github.com/FindAPattern/incredible-website#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pm2": "^2.10.4"
+  }
+}
